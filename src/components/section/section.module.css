@@ -1,0 +1,50 @@
+.section {
+  margin-top: 100px;
+  font-family: "Quicksand";
+}
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+.title h1 {
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 26px;
+}
+.title h5 {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  color: gray;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: center;
+  margin-left: 30px;
+}
+.category {
+  width: calc(25% - 25px);
+  display: flex;
+  gap: 5px;
+
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+.category h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.category p {
+  font-size: 13px;
+  color: gray;
+}
+.image {
+  margin-left: 20px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,134 @@
+.container {
+  margin-top: 150px;
+}
+.signup {
+  color: black;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+.text p {
+  color: gray;
+}
+.input {
+  padding: 10px 15px;
+  margin-right: 20px;
+}
+.btn {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.footer {
+  display: flex;
+  margin-top: 50px;
+}
+.left {
+  flex: 1;
+}
+.right {
+  flex: 1;
+}
+.imgContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.image {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.imgContainer span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff3366;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+}
+.left p {
+  color: gray;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+.socials {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  color: var(--softTextColor);
+}
+.links,
+.tags,
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media screen and (max-width: 1920px) {
+}
+@media screen and (max-width: 1440px) {
+  .text p {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .input {
+    padding: 10px 15px;
+    margin-right: 20px;
+  }
+  .btn {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  .imgContainer span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff3366;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 1px;
+  }
+  .imgContainer {
+    margin-bottom: 10px;
+  }
+  .left p {
+    color: gray;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .socials {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  .right {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    color: var(--softTextColor);
+    font-size: 13px;
+  }
+  .links,
+  .tags,
+  .social {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}

@@ -1,0 +1,114 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #13316d;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  line-height: 19px;
+}
+.title h1 {
+  font-family: "Quicksand";
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+.title p {
+  font-family: "Quicksand";
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.form {
+  border: 1px solid rgb(199, 199, 250, 0.5);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 450px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+
+  margin-right: auto;
+  gap: 15px;
+  padding: 30px 0;
+  padding-left: 30px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.fname input,
+.lname input {
+  width: 80%;
+  border: hwb(220 7% 57%) 1px solid;
+  padding: 5px 12px;
+
+  height: 32px;
+  margin-top: 5px;
+  border-radius: 30px;
+}
+.email input {
+  width: 90%;
+  border: hwb(220 7% 57%) 1px solid;
+  background-color: #e8f0fe;
+  height: 32px;
+  margin-top: 5px;
+  border-radius: 30px;
+  padding: 5px 12px;
+}
+.password input {
+  width: 90%;
+  border: hwb(220 7% 57%) 1px solid;
+  background-color: #e8f0fe;
+  height: 32px;
+  margin-top: 5px;
+  border-radius: 30px;
+  padding: 5px 12px;
+}
+.company input {
+  width: 90%;
+  border: hwb(220 7% 57%) 1px solid;
+
+  height: 32px;
+  margin-top: 5px;
+  border-radius: 30px;
+  padding: 5px 12px;
+}
+.terms {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+.form button {
+  width: 90%;
+  background-color: #13316d;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 30px;
+  margin-top: 10px;
+
+  height: 40px;
+  cursor: pointer;
+}
+.bottom {
+  margin-top: 20px;
+  font-family: "Quicksand";
+  font-size: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+.link {
+  color: #6cb2e0;
+}
+.d {
+  margin-right: 3px;
+}
+.form label {
+  font-size: 14px;
+}
