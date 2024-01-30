@@ -10,7 +10,8 @@
 .title h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 600;
+  color: #414a4d;
 }
 .container {
   margin-top: 60px;

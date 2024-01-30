@@ -1,0 +1,16 @@
+.confirm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+  font-family: "Quicksand";
+  gap: 10px;
+  width: 650px;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img {
+  height: 100px;
+  width: 100px;
+}

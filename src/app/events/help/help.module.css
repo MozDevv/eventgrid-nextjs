@@ -1,0 +1,71 @@
+.help {
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+  gap: 20px;
+  height: 100vh;
+}
+.top {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-top: 30px;
+  margin-right: auto;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #e8f0fe;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.form {
+  width: 700px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.form label {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+}
+
+.form input {
+  padding: 15px 18px;
+  border-radius: 30px;
+  width: 100%;
+  outline: none;
+  border: 2px solid black;
+}
+
+.explore {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.container {
+  height: 200px;
+  width: 25%;
+  box-shadow: 1px -1px 23px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -1px 23px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 23px -9px rgba(0, 0, 0, 0.75);
+  padding: 20px 10px;
+  border-radius: 10px;
+  display: flex;
+}
+.middle {
+  display: flex;
+}
+.bottom {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img p {
+  color: gray;
+  padding-left: 10px;
+}

@@ -37,9 +37,12 @@
   margin-left: 50px;
 }
 .text h1 {
+  line-height: 50px;
+  font-weight: 600;
   margin-top: 50px;
   color: #414a4d;
-  font-size: 40px;
+  font-size: 35px;
+  font-family: "Quicksand";
 }
 
 .link {

@@ -1,0 +1,60 @@
+:root {
+  --column-width: calc(100vw / 15);
+  --nav-width: calc(100vw - var(--column-width));
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f9fc;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+}
+.navbar {
+  flex: 1;
+  background-color: #14316d;
+  color: white;
+  height: 100vh;
+}
+.children {
+  flex: 14;
+  margin-top: 70px;
+  width: 100%;
+  z-index: 999;
+}
+.topbar {
+  position: fixed;
+  z-index: 99999;
+  left: var(--column-width);
+  top: 0;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to the viewport height to cover the entire screen */
+  position: fixed; /* Position it fixed so it's always in the center, regardless of scroll */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Add a semi-transparent background */
+  z-index: 9999;
+}

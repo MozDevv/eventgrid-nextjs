@@ -18,9 +18,8 @@ function Featured() {
   return (
     <div className={styles.featured}>
       <div className={styles.text}>
-        <h1 className={poppins.className}>
-          Effortless Event Management:Manage Your Schedule with Ease
-        </h1>
+        <h1>Effortless Event Management:Manage Your Schedule with Ease bud</h1>
+
         <Image
           alt=""
           className={styles.img}

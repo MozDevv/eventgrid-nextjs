@@ -1,0 +1,150 @@
+.details {
+  margin-left: 20px;
+  margin-top: 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.title {
+  color: #13316d;
+  font-family: "Quicksand";
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  margin-left: 20%;
+}
+.title h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.callIcon {
+  cursor: pointer;
+}
+
+.company {
+  margin-top: 20px;
+  color: #13316d;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+  align-items: center;
+}
+.company h5 {
+  font-size: 16px;
+}
+
+.user {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom {
+  margin-top: 40px;
+  height: 100%;
+  position: relative;
+}
+.h3 {
+  font-size: 18px;
+  font-family: "Quicksand";
+  color: #13316d;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.userDetails {
+  border: 1px solid rgb(199, 199, 250, 0.5);
+  border-radius: 10px;
+  padding: 20px 3px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  padding: 5px 10px;
+}
+.label {
+  font-weight: 600;
+  margin-right: 5px;
+}
+.val1 {
+  color: #c8573a;
+  font-weight: 600;
+}
+.buttons {
+  margin-top: 30px;
+  margin-left: 60%;
+}
+.buttons button {
+  background-color: crimson;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-top: 80px;
+  gap: 15px;
+  color: gray;
+  font-family: "Quicksand";
+}
+.logo {
+  margin-left: 10px;
+}
+.background {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  width: 100vw;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.cancel {
+  z-index: 999;
+  position: absolute;
+  background-color: white;
+  top: 30%;
+  height: 140px;
+
+  padding: 30px 20px;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btnY {
+  background-color: crimson;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btnN {
+  background-color: #13316d;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.nav {
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+}
+.container {
+  margin-top: 80px;
+  width: 100%;
+}
+.links {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.link {
+  padding-left: 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.pr {
+  margin-left: 4px;
+}
+
+.link:hover {
+  background-color: #2650a4;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.icon {
+  font-size: 6px !important;
+  margin-left: 13px;
+  margin-bottom: 5px;
+}
+.link.active {
+  background-color: #2650a4;
+}
+
+.help {
+  margin-left: 10px;
+}
+.o {
+  margin-left: 4px;
+}
+@media screen and (max-width: 1600px) {
+  .nav {
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+  }
+  .container {
+    margin-top: 60px;
+    width: 100%;
+  }
+  .links {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .link {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .nav {
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 13px;
+  }
+  .container {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .links {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+  }
+  .link {
+    padding-left: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}

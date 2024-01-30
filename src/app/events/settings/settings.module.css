@@ -1,0 +1,128 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Quicksand";
+}
+.right {
+  flex: 1;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+.bottom {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.left h1 {
+  margin-bottom: 30px;
+}
+.left p {
+  font-size: 15px;
+}
+.bottom button {
+  width: 180px;
+  padding: 12px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #2650a4;
+  border: none;
+  color: white;
+  font-family: "Quicksand";
+}
+.background {
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  width: 100%;
+}
+
+.overlay {
+  z-index: 999;
+  position: absolute;
+  background-color: white;
+  top: 140px;
+  height: 400px;
+  width: 550px;
+  left: 30%;
+  padding: 30px 20px;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  transition: 5s all ease-in;
+}
+.top {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  color: #2650a4;
+}
+
+.top h2 {
+  color: #2650a4;
+  margin-bottom: 20px;
+}
+.top p {
+  font-size: 14px;
+  color: #2650a4;
+  font-weight: 700;
+}
+.link {
+  height: 30px;
+  width: 80%;
+  background-color: #e8f0fe;
+  margin-left: 50px;
+  border: #2650a4 dashed 1px;
+}
+.link p {
+  font-size: 14px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.bottom p {
+  font-size: 14px;
+  margin-top: -70px;
+  color: rgb(168, 168, 168);
+  font-family: "Quicksand";
+}
+.button button {
+  width: 120px;
+  padding: 12px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #2650a4;
+  border: none;
+  color: white;
+  font-family: "Quicksand";
+}
+.button {
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon {
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
 .signup {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   margin-top: auto;
   margin-bottom: auto;
   color: #13316d;
@@ -15,6 +15,11 @@
   font-size: 44px;
   margin-bottom: 10px;
 }
+.error p {
+  color: crimson;
+  font-family: "Quicksand";
+}
+
 .title p {
   font-family: "Quicksand";
   font-size: 18px;
@@ -41,8 +46,8 @@
   display: flex;
   justify-content: space-between;
 }
-.fname input,
-.lname input {
+.firstName input,
+.lastName input {
   width: 80%;
   border: hwb(220 7% 57%) 1px solid;
   padding: 5px 12px;
@@ -106,9 +111,45 @@
 .link {
   color: #6cb2e0;
 }
+
 .d {
   margin-right: 3px;
 }
 .form label {
   font-size: 14px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to the viewport height to cover the entire screen */
+  position: fixed; /* Position it fixed so it's always in the center, regardless of scroll */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Add a semi-transparent background */
+  z-index: 9999;
+}
+@media screen and (max-width: 1920px) {
+  .form {
+    height: 550px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .title h1 {
+    font-family: "Quicksand";
+    font-size: 34px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
 }

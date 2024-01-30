@@ -52,11 +52,11 @@
 .form button {
   background-color: #13316d;
   color: white;
-  padding: 5px 12px;
+  padding: 5px 15px;
   border-radius: 30px;
   margin-top: 10px;
   width: 80%;
-  height: 32px;
+  height: 35px;
   cursor: pointer;
 }
 .input input {
@@ -69,6 +69,9 @@
 }
 .input label {
   margin-bottom: 4px;
+}
+.input.error input {
+  border: crimson 2px solid;
 }
 
 .input input::placeholder {
@@ -91,4 +94,22 @@
 }
 .link:hover {
   text-decoration: underline;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to the viewport height to cover the entire screen */
+  position: fixed; /* Position it fixed so it's always in the center, regardless of scroll */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Add a semi-transparent background */
+  z-index: 9999;
 }
